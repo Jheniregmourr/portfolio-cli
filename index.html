@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Oh My Portfolio</title>
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="terminal">
+      <header class="terminal-header">
+        <div class="window-controls">
+          <span title="Nao vai fechar nao...." class="circle red"></span>
+          <span title="Nao tente novamente" class="circle yellow"></span>
+          <span class="circle green"></span>
+        </div>
+
+        <div class="terminal-title">
+          <img src="./images/file.png" alt="" width="25" height="20" />
+
+          <span>Full-Stack-Developer@Jhenifer — dev</span>
+        </div>
+
+        <div class="terminal-help">
+          <button popovertarget="example-popover">
+            <img src="images/ajuda.png" width="20" alt="Ajuda" />
+          </button>
+          <div id="example-popover" popover>
+            <p>teste de pop up</p>
+            <button popovertarget="example-popover" popovertargetaction="hide">
+              Close
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main class="terminal-body">
+        <div class="terminal-system">
+          <p id="today"></p>
+        </div>
+
+        <div class="inicial-message" id="zsh-line">
+          <pre class="ascii-logo">
+                        ___  _   _   __  ____   __
+                       / _ \| | | | |  \/  \ \ / /
+                      | | | | |_| | | |\/| |\ V /
+                      | |_| |  _  | | |  | | | |
+                       \___/|_| |_| |_|  |_| |_|
+            
+                       ____   ___  ____ _____ _____ ___  _     ___ ___
+                      |  _ \ / _ \|  _ \_   _|  ___/ _ \| |   |_ _/ _ \
+                      | |_) | | | | |_) || | | |_ | | | | |    | | | | |
+                      |  __/| |_| |  _ < | | |  _|| |_| | |___ | | |_| |
+                      |_|    \___/|_| \_\|_| |_|   \___/|_____|___\___/
+            
+            </pre
+          >
+          <p class="system-message">
+            Oh My Portfolio is already at the latest version.
+          </p>
+        </div>
+
+        <section class="terminal-output" id="terminal-output">
+          <div class="terminal-line">
+            <span class="prompt">➜</span>
+            <span class="path">~</span>
+            <span class="command typing"
+              >Para explorar os comandos disponíveis: digite "Help" ou acessa o
+              pop-up de ajuda na lateral direita representado por "?".</span
+            >
+          </div>
+          <div class="terminal-line" id="outputUser">
+            <span class="prompt">➜</span>
+            <span class="path">~</span>
+            <input
+              type="text"
+              id="input"
+              placeholder="Digite o comando help e aperte Enter..."
+            />
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./scripts/scripts.js"></script>
+    <script type="module" src="./scripts/TerminalInputOutput.js"></script>
+    <script type="module" src="./scripts/EstruturaHTMLInput.js"></script>
+    <script src="scripts/Output.js"></script>
+  </body>
+</html>
