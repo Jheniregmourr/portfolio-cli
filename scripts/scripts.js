@@ -54,12 +54,12 @@ async function typeWrite(elemento) {
     //forEach, para cada...
     setTimeout(function () {
       elemento.innerHTML += letras;
-    }, 180 * i); //100 * i
+    }, 70 * i); //100 * i
   });
 
   setTimeout(function () {
     visibleTerminal(outputUser);
-  }, 1 * textArray.length);
+  }, 75 * textArray.length);
 }
 
 const texts = document.getElementsByClassName("typing");
@@ -69,7 +69,6 @@ Array.from(texts).forEach((elemento) => {
 });
 
 async function visibleTerminal(elemento) {
-  elemento.value = " ";
   elemento.classList.add("visible");
 }
 

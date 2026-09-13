@@ -27,13 +27,84 @@
         </div>
 
         <div class="terminal-help">
-          <button popovertarget="example-popover">
+          <button popovertarget="popover">
             <img src="images/ajuda.png" width="20" alt="Ajuda" />
           </button>
-          <div id="example-popover" popover>
-            <p>teste de pop up</p>
-            <button popovertarget="example-popover" popovertargetaction="hide">
-              Close
+
+          <div id="popover" popover>
+            <h2>Ajuda</h2>
+
+            <p>Bem-vindo ao meu portfólio!</p>
+
+            <p>
+              Este terminal é interativo. Digite um dos comandos abaixo para
+              explorar minhas informações, experiências e projetos.
+            </p>
+
+            <div>
+              <div>
+                <span>Comando</span>
+                <span>| Descrição</span>
+              </div>
+
+              <div>
+                <span>about</span>
+                <span>| Sobre mim</span>
+              </div>
+
+              <div>
+                <span>stack</span>
+                <span>| Tecnologias que utilizo</span>
+              </div>
+
+              <div>
+                <span>experience</span>
+                <span>| Minha experiência profissional</span>
+              </div>
+
+              <div>
+                <span>projects</span>
+                <span>| Projetos</span>
+              </div>
+
+              <div>
+                <span>education</span>
+                <span>| Formação acadêmica</span>
+              </div>
+
+              <div>
+                <span>hobbies</span>
+                <span>| Meus hobbies</span>
+              </div>
+
+              <div>
+                <span>contact</span>
+                <span>| Contato</span>
+              </div>
+
+              <div>
+                <span>study</span>
+                <span>| O que estou estudando atualmente</span>
+              </div>
+
+              <div>
+                <span>clear</span>
+                <span>| Limpar terminal</span>
+              </div>
+
+              <div>
+                <span>help</span>
+                <span>| Lista de comandos</span>
+              </div>
+            </div>
+
+            <p>
+              Dica: você pode digitar "help" no terminal a qualquer momento para
+              consultar novamente os comandos disponíveis.
+            </p>
+
+            <button popovertarget="popover" popovertargetaction="hide">
+              Fechar
             </button>
           </div>
         </div>
