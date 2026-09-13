@@ -138,12 +138,14 @@ Para acessar meu perfil em plataformas como LinkedIn e GitHub, use o comando "co
 `);
       break;
 
-    case "education":
-      EstruturaOutput(`┌──────────────────────────────────────────────┬──────────────────────────────────┐
+      case "education":
+  EstruturaOutput(`┌──────────────────────────────────────────────┬──────────────────────────────────┐
 │ Education                                    │ Institution                      │
 ├──────────────────────────────────────────────┼──────────────────────────────────┤
 │ Técnica em Informática                       │ Instituto Federal do Paraná      │
 │ Análise e Desenvolvimento de Sistemas        │ Universidade Positivo            │
+│ (Atualmente)                                 │                                  │
+│ Curso de Inglês (Básico ao Avançado)         │ Alcance Saber                    │
 │ (Atualmente)                                 │                                  │
 └──────────────────────────────────────────────┴──────────────────────────────────┘
 
@@ -177,6 +179,8 @@ Também venho estudando a utilização do Neovim, buscando aprender a programar 
 Além disso, estou me aprofundando um pouco mais em React Native.
 
 Estudar back-end tem me dado a oportunidade de conhecer melhor a infraestrutura de uma aplicação como um todo, incluindo a utilização de Docker e bancos de dados.
+
+Atualmente, também estou fazendo um curso de inglês na Alcance Saber, com conteúdo que vai do nível básico ao avançado, buscando desenvolver minha comunicação e compreensão do idioma.
 
 Para conhecer minha experiência profissional e meus projetos pessoais, use o comando "experience".`);
 
